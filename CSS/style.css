@@ -555,3 +555,184 @@ footer {
 
   transition: 300ms ease-in-out;
 }
+
+
+/* ARQUIVO CONTATO */
+
+.wrapper-formulario {
+  width: 85%;
+  height: 80vh;
+
+  display: flex;
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.formulario-esquerda {
+  width: 45%;
+  height: 100%;
+
+  border-radius: 4px;
+
+  padding: 40px 40px;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  background-color: rgb(230, 30, 30, .85);
+}
+
+.formulario-esquerda > h3 {
+  color: #fcf8f8;
+
+  font-size: 2.75rem;
+}
+
+.formulario-esquerda-paragrafo {
+  color: #fcf8f8;
+
+  width: 85%;
+
+  font-size: 1.25rem;
+  font-weight: 300;
+  
+  line-height: 1.65rem;
+}
+
+.formulario-esquerda-lista-contatos {
+  margin-top: 96px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 12px;
+}
+
+.formulario-esquerda-lista-contatos > li {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  color: #fcf8f8;
+
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.formulario-esquerda-lista-contatos > li > img {
+  aspect-ratio: 1;
+
+  user-select: none;
+
+  height: 90%;
+}
+
+
+.formulario-direita {
+  width: 65%;
+  height: 100%;
+
+  border-radius: 4px;
+
+  padding: 40px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formulario-direita-form {
+  display: grid;
+  gap: 1.5rem;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-group {
+  display: grid;
+}
+.form-group-linha-inteira{
+  grid-column: 1 / -1;
+}
+.form-group > label {
+  font-size: 1.25rem;
+  font-weight: bold;
+
+  color: var(--accent-color);
+}
+.form-input-default {
+  width: 100%;
+
+  outline: none;
+
+  border: transparent;
+  border-bottom: 1px solid var(--black-text);
+
+  font-size: 1.25rem;
+
+  height: 6vh;
+}
+.form-input-default-error {
+  border-color: var(--primary-red);
+}
+.form-input-default::placeholder {
+  font-size: 1rem;
+
+  color: rgb(230, 30, 30, .45);
+}
+
+#input-mensagem {
+  height: 20vh;
+
+  margin-top: 8px;
+
+  resize: none;
+  outline: none;
+}
+
+.form-input-submit {
+  grid-column: 1 / -1;
+  justify-self: end;
+
+  background-color: var(--accent-color);
+
+  font-size: 1.5rem;
+
+  padding: 12px 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 75px;
+  height: 8vh;
+
+  border-radius: 6px;
+  border: transparent;
+
+  font-weight: bold;
+  color: #fcf8f8;
+
+  transition: 50ms ease;
+}
+.form-input-submit:hover {
+  background-color: var(--primary-red);
+}
+
+/* HTML:  */
+.loader {
+  height: 90%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 6px solid;
+  border-color: white #0000;
+  animation: l1 1s infinite;
+}
+@keyframes l1 {to{transform: rotate(.5turn)}}
