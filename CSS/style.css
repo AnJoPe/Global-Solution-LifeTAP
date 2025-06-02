@@ -405,11 +405,16 @@ footer {
   border: 1px solid var(--accent-color);
   border-radius: 20px;
 
+  justify-self: center;
+
   overflow: hidden;
 
   cursor: pointer;
 
   color: white;
+}
+.card-emergencia:active {
+  border-color: #b61616;
 }
 .card-emergencia > img {
   height: 75%;
@@ -430,6 +435,9 @@ footer {
 }
 .card-emergencia:hover > h3 {
   background-color: var(--accent-color);
+}
+.card-emergencia:active > h3 {
+  background-color: #b61616;
 }
 
 .item-emergencia {
@@ -821,4 +829,46 @@ footer {
 
 .midias-sociais img {
   height: 50px;
+}
+
+.checklist-titulo {
+  font-size: 3rem;
+
+  color: var(--primary-red);
+}
+
+.conteudo-checklist {
+  width: 60%;
+
+  margin-top: 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.card-emergencia-selecionado {
+  border-color: var(--primary-red);
+}
+.card-emergencia-selecionado:hover {
+  border-color: #8a0f0f;
+}
+.card-emergencia-selecionado:active {
+  border-color: #b61616;
+}
+.card-emergencia-selecionado h3 {
+  background-color: var(--primary-red);
+}
+.card-emergencia-selecionado:hover h3 {
+  background-color: #8a0f0f;
+}
+.card-emergencia-selecionado:active h3 {
+  background-color: #b61616;
+}
+
+.conteudo-checklist.conteudo-todo-selecionado > .card-emergencia-selecionado {
+  border-color: green;
+}
+.conteudo-checklist.conteudo-todo-selecionado > .card-emergencia-selecionado > h3 {
+  background-color: green;
 }
