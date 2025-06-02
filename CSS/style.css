@@ -470,7 +470,7 @@ footer {
 
   align-self: flex-start;
 
-  margin-left: 80px;
+  margin-left: 112px;
 }
 
 
@@ -481,6 +481,9 @@ footer {
 
   display: flex;
   justify-content: space-around;
+}
+.conteudo-perguntas > img {
+  height: 60vh;
 }
 
 .conteudo-perguntas > .conteudo-perguntas-direita {
@@ -496,6 +499,8 @@ footer {
   height: fit-content;
 
   position: relative;
+
+  margin-bottom: 48px;
 
   display: flex;
   flex-direction: column;
@@ -526,6 +531,7 @@ footer {
   margin-bottom: 12px;
 }
 .titulo-pergunta-frequente-texto {
+  width: 85%;
   color: var(--accent-color);
 
   font-size: 1.5rem;
@@ -543,7 +549,7 @@ footer {
   font-size: 1.2rem;
   color: var(--black-text);
   
-  text-align: center;
+  text-align: justify;
 
   overflow: hidden;
 
