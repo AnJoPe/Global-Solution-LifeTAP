@@ -1,0 +1,194 @@
+@media (min-width: 768px) {
+    .superior-footer {
+        width: 85%;
+
+        top: -39%;
+    }
+
+    .esquerda-superior-footer {
+        width: 65%;
+
+        padding: 16px 0;
+        padding-left: 24px;
+    }
+
+    .esquerda-superior-footer>h3 {
+        font-size: 1.85rem;
+
+        margin-bottom: 4;
+
+        font-weight: bolder;
+    }
+
+    .esquerda-superior-footer>p {
+        font-weight: 400;
+
+        font-size: 1.2rem;
+    }
+
+    .direita-superior-footer {
+        width: 35%;
+    }
+
+    .direita-superior-footer>a {
+        font-size: 1.5rem;
+    }
+
+    .inferior-footer>h3 {
+        font-size: 3.25rem;
+    }
+
+    .inferior-footer>p {
+        font-size: 1.2rem;
+    }
+
+
+    .imagem-introdutoria {
+        height: 50vh;
+
+        position: relative;
+    }
+
+    .imagem-introdutoria>img {
+        height: 100%;
+    }
+
+    .imagem-introdutoria>h2 {
+        padding: 4px 16px;
+
+        width: 60%;
+
+        font-size: 2.15rem;
+    }
+
+    .paragrafo-introdutorio {
+        width: 60%;
+
+        font-size: 1.25rem;
+    }
+
+    .aplicativo-introdutorio {
+        padding-right: 96px;
+    }
+
+    .explicacao-app {
+        width: 60%;
+
+        font-size: 1.2rem;
+
+        margin-right: 64px;
+    }
+
+    .lista-emergencias {
+        gap: 32px;
+    }
+
+    .card-emergencia {
+        width: 230px;
+        height: 210px;
+    }
+
+    .card-emergencia>img {
+        height: 70%;
+    }
+
+    .card-emergencia>h3 {
+        font-size: 1.1rem;
+    }
+
+    .lista-emergencias {
+        width: 85%;
+
+        gap: 32px;
+    }
+
+    .item-emergencia {
+        width: 32%;
+
+        padding: 4px 12px;
+    }
+
+
+    .conteudo-perguntas>img {
+        display: none;
+    }
+
+    .conteudo-perguntas > .conteudo-perguntas-direita {
+        width: 85%;
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .pergunta-frequente {
+        width: 75%;
+    }
+
+
+    .formulario-direita {
+        padding: 48px;
+    }
+    
+    .formulario-direita-form {
+        grid-template-columns: 1fr;
+    }
+
+
+    .area-integrantes {
+        flex-direction: column;
+    }
+
+    .card-integrante {
+        width: 320px;
+        height: 430px;
+    }
+
+
+    .conteudo-emergencia {
+        margin-bottom: 75%;
+    }
+
+    .opcoes-emergencia {
+        flex-direction: column;
+
+        gap: 24px;
+    }
+
+
+    .conteudo-checklist {
+        width: 75%;
+    }
+
+
+    .questionario {
+        width: 80%;
+    }
+    .opcao-questao {
+        font-size: 1.2rem;
+    }
+
+    .wrapper-terminar-questionario {
+        align-self: center;
+    }
+
+
+
+    .etapa-tutorial {
+        gap: 32px;
+
+        grid-template-rows: 30vh;
+    }
+
+    .imagem-etapa-tutorial {
+        height: 45%;
+    }
+    
+    .titulo-etapa {
+        font-size: 1.4rem;
+    }
+
+    .descricao-etapa {
+        font-size: 1.25rem;
+    }
+}

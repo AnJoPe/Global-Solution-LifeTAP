@@ -952,12 +952,11 @@ footer {
   background-color: var(--accent-color);
 }
 .opcao-questao-correta {
-    background-color: #2e7d32;
+  background-color: #2e7d32;
 }
 .opcao-questao-errada {
-    background-color: #c62828;
+  background-color: #c62828;
 }
-
 
 .wrapper-terminar-questionario {
   align-self: flex-end;
