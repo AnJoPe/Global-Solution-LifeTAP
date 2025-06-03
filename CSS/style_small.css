@@ -1,0 +1,111 @@
+@media (min-width: 600px) {
+    .navbar-links {
+        width: 75%;
+
+        border-radius: 0 0 15px 15px;
+
+        left: 50%;
+    }
+
+    .navbar-links-open {
+        top: 10dvh;
+    }
+
+    .navbar-links ul a li {
+        font-size: 1.35rem;
+    }
+
+
+    footer {
+        height: 25vh;
+    }
+
+    .superior-footer {
+        width: 85%;
+        height: 75%;
+
+        top: -55%;
+    }
+
+    .esquerda-superior-footer {
+        width: 60%;
+
+        padding: 16px 0;
+        padding-left: 24px;
+    }
+
+    .esquerda-superior-footer>h3 {
+        font-size: 1.25rem;
+
+        margin-bottom: 4;
+
+        font-weight: bolder;
+    }
+
+    .esquerda-superior-footer>p {
+        font-weight: 400;
+
+        font-size: 1rem;
+    }
+
+    .direita-superior-footer {
+        width: 40%;
+    }
+    .direita-superior-footer > a {
+
+        font-size: 1.35rem;
+    }
+
+    .inferior-footer {
+        padding: 8px 48px;
+    }
+    .inferior-footer > h3 {
+        margin-bottom: 12px;
+
+        font-size: 1.35rem;
+    }
+    .inferior-footer > h3 > img {
+        height: 4vh;
+      }
+    .inferior-footer>p {
+        width: 100%;
+        height: 100%;
+
+        font-size: 1rem;
+    }
+
+
+
+    .imagem-introdutoria {
+        height: 42vh;
+    }
+    .imagem-introdutoria > h2  {
+        font-size: 2.25rem;
+    }
+
+    .aplicativo-introdutorio {
+        padding: 0 64px;
+    }
+    .paragrafo-introdutorio {
+        width: 100%;
+
+        font-size: 1.25rem;
+    }
+
+    #tela-celular-contorno {
+        display: none;
+    }
+
+    .explicacao-app {
+        margin-top: 16px;
+
+        width: 60%;
+    }
+
+    .lista-emergencias {
+        gap: 16px;
+    }
+    .item-emergencia {
+        width: 45%;
+    }
+}
