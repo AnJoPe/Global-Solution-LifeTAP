@@ -38,7 +38,6 @@
 
     .pergunta-frequente {
         width: 90%;
-
     }
 
     .paragrafo-pergunta-frequente {
@@ -80,5 +79,31 @@
 
     .wrapper-terminar-questionario {
         align-self: center;
+    }
+
+
+    
+    .tutorial-wrapper {
+        width: 85%;
+
+        margin-top: 8px;
+    }
+    
+    .etapa-tutorial {
+        gap: 40px;
+
+        grid-template-rows: 30vh;
+    }
+
+    .imagem-etapa-tutorial {
+        height: 65%;
+    }
+    
+    .titulo-etapa {
+        font-size: 1.85rem;
+    }
+
+    .descricao-etapa {
+        font-size: 1.25rem;
     }
 }
