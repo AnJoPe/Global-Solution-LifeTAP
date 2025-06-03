@@ -68,7 +68,6 @@ const perguntas_quiz = [
 
 document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < perguntas_quiz.length; i++) {
-        var numero_questao = i + 1;
 
         var questao_atual = document.createElement('div');
         questao_atual.setAttribute('class', "questao");

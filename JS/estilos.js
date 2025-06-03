@@ -2,13 +2,15 @@ const header_element = document.getElementById('header-global');
 const navbar_element = document.getElementById('navbar-selector');
 const menu_hamburguer_selector = document.getElementById('menu-hamburguer-selector');
 
+const altura_janela = window.innerHeight;
+
 let navbarAberta = 0;
 
 window.addEventListener('scroll', () => {
     if (window.scrollY == 0){
         header_element.className = ""
     }
-    else if (window.scrollY > 0){
+    else if (window.scrollY > altura_janela * .09){
         header_element.className = "header-transparente-baixo"
     }
 });

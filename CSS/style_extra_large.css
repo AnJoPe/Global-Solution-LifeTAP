@@ -1,0 +1,51 @@
+@media (min-width: 1300px) {
+    .imagem-introdutoria {
+        height: 60vh;
+      
+        position: relative;
+      }
+      
+      .imagem-introdutoria > img {
+        height: 100%;
+      }
+
+      .imagem-introdutoria > h2 {
+        padding: 4px 8px;
+      }
+
+      .paragrafo-introdutorio {
+        width: 65%;
+      }
+
+      .lista-emergencias {
+        row-gap: 24px;
+
+        width: 88%;
+      }
+
+      .item-emergencia {
+        min-height: 12vh;
+
+        padding: 4px 16px;
+      }
+
+      .pergunta-frequente {
+        width: 85%;
+
+      }
+
+      .paragrafo-pergunta-frequente {
+        font-size: 1.35rem;
+      }
+
+
+      .conteudo-checklist {
+        width: 85%;
+
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .conteudo-emergencia {
+        margin-bottom: 144px;
+      }
+}

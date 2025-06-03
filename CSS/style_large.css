@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+    .superior-footer {
+        width: 85%;
+
+        top: -38%;
+    }
+
+    .esquerda-superior-footer {
+        width: 65%;
+    }
+
+    .direita-superior-footer {
+        width: 35%;
+    }
+
+    .imagem-introdutoria {
+        height: 55vh;
+      
+        position: relative;
+      }
+      
+      .imagem-introdutoria > img {
+        height: 100%;
+      }
+
+      .imagem-introdutoria > h2 {
+        padding: 4px 8px;
+      }
+
+      .paragrafo-introdutorio {
+        width: 60%;
+      }
+
+      .explicacao-app {
+        width: 50%;
+      }
+}
