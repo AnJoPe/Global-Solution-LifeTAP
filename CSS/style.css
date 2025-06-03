@@ -766,7 +766,7 @@ footer {
 
   padding: 16px;
 
-  border: 2px solid var(--primary-blue);
+  border: 2px solid var(--primary-red);
   border-radius: 15px;
 
   /* box-shadow: 0px 20px 17px 0px rgba(0, 0, 0, 0.21);
@@ -831,7 +831,7 @@ footer {
   height: 50px;
 }
 
-.checklist-titulo {
+.titulo-pagina {
   font-size: 3rem;
 
   color: var(--primary-red);
@@ -871,4 +871,141 @@ footer {
 }
 .conteudo-checklist.conteudo-todo-selecionado > .card-emergencia-selecionado > h3 {
   background-color: green;
+}
+
+
+
+.questionario {
+  width: 75%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 32px;
+
+  margin: 64px 0;
+}
+
+.questao {
+  width: 100%;
+  height: fit-content;
+
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.titulo-questao {
+  color: var(--primary-red);
+
+  font-size: 2.25rem;
+}
+.explicacao-questao {
+  color: var(--accent-color);
+
+  width: 60%;
+
+  margin-top: 8px;
+
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+}
+.respostas-questao {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+
+  margin-top: 12px;
+}
+.opcao-questao {
+  width: 100%;
+
+  font-size: 1.35rem;
+  color: white;
+  font-weight: bold;
+
+  border: transparent;
+  border-radius: 15px;
+
+  background-color: rgb(228, 139, 139, .75);
+
+  padding: 12px 8px;
+}
+.opcao-questao:hover {
+  background-color: rgb(228, 139, 139, .95);
+}
+.opcao-questao-selecionada {
+  background-color: var(--accent-color);
+}
+.opcao-questao-selecionada:hover {
+  background-color: var(--accent-color);
+}
+.opcao-questao-correta {
+    background-color: #2e7d32;
+}
+.opcao-questao-errada {
+    background-color: #c62828;
+}
+
+
+.wrapper-terminar-questionario {
+  align-self: flex-end;
+
+  display: flex;
+  gap: 32px;
+}
+
+.terminar-questionario {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+
+  cursor: pointer;
+
+  border: 1px solid green;
+  border-radius: 8px;
+
+  padding: 4px 12px;
+
+  background-color: rgba(18, 133, 53, 0.55);
+}
+.terminar-questionario:hover {
+  background-color: green;
+}
+.terminar-questionario:active {
+  cursor: default;
+  background-color: #b61616;
+}
+
+.resetar-questionario {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: white;
+
+  cursor: pointer;
+
+  border: transparent;
+  border-radius: 8px;
+
+  padding: 4px 12px;
+
+  background-color: var(--accent-color);
+}
+.resetar-questionario:hover {
+  background-color: #e61e1e;
+}
+.resetar-questionario:active {
+  cursor: default;
+  background-color: #b61616;
+}
+
+.span-erro-questionario {
+  font-weight: bold;
+
+  color: var(--primary-red);
 }

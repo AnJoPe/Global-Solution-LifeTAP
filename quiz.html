@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>LifeTAP – Contato</title>
+    <title>LifeTAP - Quiz</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="Assets/icon.ico" type="image/x-icon" />
@@ -63,48 +63,26 @@
     </header>
 
     <main class="conteudo-index">
-        <div class="wrapper-formulario">
-            <section class="formulario-esquerda">
-                <h3>Entre em Contato</h3>
-                <p class="formulario-esquerda-paragrafo">Mande uma mensagem para nos ajudar a melhorar sua experiência.</p>
+        <h2 class="titulo-pagina">Quiz</h2>
 
-                <ul class="formulario-esquerda-lista-contatos">
-                    <li>
-                        <img draggable="false" src="Assets/Icons/telefone_contato.png" alt="Ícone de um telefone branco.">
-                        +1012 3456 789
-                    </li>
-                    <li>
-                        <img draggable="false" src="Assets/Icons/email_contato.png" alt="Ícone de um email branco.">
-                        LifeTap@gmail.com
-                    </li>
-                </ul>
-            </section>
-            <section class="formulario-direita">
-                <form id="formulario-contato" class="formulario-direita-form">
-                    <div class="form-group">
-                        <label for="input-nome">Nome</label>
-                        <input class="form-input-default" onfocus="resetInput('input-nome')" type="text" id="input-nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="input-email">Email</label>
-                        <input class="form-input-default" onfocus="resetInput('input-email')" type="email" id="input-email">
-                    </div>
-                    <div class="form-group form-group-linha-inteira">
-                        <label for="input-assunto">Assunto</label>
-                        <input class="form-input-default" onfocus="resetInput('input-assunto')" type="text" id="input-assunto">
-                    </div>
-                    <div class="form-group form-group-linha-inteira">
-                        <label for="input-mensagem">Mensagem</label>
-                        <textarea class="form-input-default input-mensagem" onfocus="resetInput('input-corpo')" id="input-mensagem"></textarea>
-                    </div>
-
-                    <button id="form-input-submit" class="form-input-submit" type="submit">Enviar Mensagem</button>
-                </form>
-            </section>
-        </div>
+        <section id="questionario-selector" class="questionario">
+            
+        </section>
     </main>
 
     <footer>
+      <section class="superior-footer">
+        <div class="esquerda-superior-footer">
+          <h3>Tem Alguma Pergunta?</h3>
+          <p>
+            Escreva sua preocupação para nós e nosso especialista entrará em
+            contato com você.
+          </p>
+        </div>
+        <div class="direita-superior-footer">
+          <a href="">Entre em Contato</a>
+        </div>
+      </section>
       <section class="inferior-footer">
         <h3>
           LiveTap
@@ -122,7 +100,7 @@
       </section>
     </footer>
 
-    <script src="JS/contato.js"></script>
+    <script src="JS/quiz.js"></script>
     <script src="JS/estilos.js" defer></script>
   </body>
 </html>
