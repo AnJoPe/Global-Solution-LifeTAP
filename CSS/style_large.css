@@ -15,23 +15,70 @@
 
     .imagem-introdutoria {
         height: 55vh;
-      
+
         position: relative;
-      }
-      
-      .imagem-introdutoria > img {
+    }
+
+    .imagem-introdutoria>img {
         height: 100%;
-      }
+    }
 
-      .imagem-introdutoria > h2 {
+    .imagem-introdutoria>h2 {
         padding: 4px 8px;
-      }
+    }
 
-      .paragrafo-introdutorio {
+    .paragrafo-introdutorio {
         width: 60%;
-      }
+    }
 
-      .explicacao-app {
+    .explicacao-app {
         width: 50%;
-      }
+    }
+
+
+    .pergunta-frequente {
+        width: 90%;
+
+    }
+
+    .paragrafo-pergunta-frequente {
+        font-size: 1.35rem;
+    }
+
+
+    .form-input-default::placeholder {
+        font-size: .85rem;
+
+        color: rgb(230, 30, 30, 0.45);
+    }
+
+
+
+    .card-integrante {
+        width: 280px;
+        height: 410px;
+    }
+
+
+    .conteudo-emergencia {
+        width: 100%;
+
+        margin-bottom: 88px;
+    }
+
+    .escolha-emergencia {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    .conteudo-checklist {
+        width: 75%;
+
+        gap: 32px;
+    }
+
+    .wrapper-terminar-questionario {
+        align-self: center;
+    }
 }
