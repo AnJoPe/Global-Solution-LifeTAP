@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             setTimeout(() => {
                 mensagemDiv.classList.add("escondido");
-            }, 5000);
+            }, 7000);
         });
     });
 });
