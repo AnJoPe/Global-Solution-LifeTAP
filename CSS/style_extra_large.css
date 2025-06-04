@@ -1,51 +1,95 @@
 @media (min-width: 1300px) {
-    .imagem-introdutoria {
-        height: 60vh;
-      
-        position: relative;
-      }
-      
-      .imagem-introdutoria > img {
-        height: 100%;
-      }
+  footer {
+    height: 30vh;
+  }
 
-      .imagem-introdutoria > h2 {
-        padding: 4px 8px;
-      }
+  .imagem-introdutoria {
+    height: 75vh;
 
-      .paragrafo-introdutorio {
-        width: 65%;
-      }
+    position: relative;
+  }
 
-      .lista-emergencias {
-        row-gap: 24px;
+  .imagem-introdutoria > img {
+    height: 100%;
+  }
 
-        width: 88%;
-      }
+  .imagem-introdutoria > h2 {
+    padding: 4px 8px;
+  }
 
-      .item-emergencia {
-        min-height: 12vh;
+  .paragrafo-introdutorio {
+    width: 65%;
+  }
 
-        padding: 4px 16px;
-      }
+  .wrapper-formulario {
+    height: 100vh;
 
-      .pergunta-frequente {
-        width: 85%;
+    flex-direction: row;
+  }
+  .formulario-esquerda {
+    height: 100%;
+  }
+  .formulario-esquerda-lista-contatos {
+    margin-top: 60%;
+  }
 
-      }
+  .form-input-default::placeholder {
+    font-size: 1.25rem;
+  }
 
-      .paragrafo-pergunta-frequente {
-        font-size: 1.35rem;
-      }
+  .area-integrantes {
+    flex-direction: row;
+
+    gap: 64px;
+  }
+
+  .lista-emergencias {
+    row-gap: 24px;
+
+    width: 88%;
+  }
 
 
-      .conteudo-checklist {
-        width: 85%;
+  .conteudo-emergencia {
+    margin-bottom: 3%;
+    padding: 0;
 
-        grid-template-columns: 1fr 1fr 1fr;
-      }
+    height: fit-content;
+  }
+  .opcoes-emergencia {
+    flex-direction: row;
 
-      .conteudo-emergencia {
-        margin-bottom: 144px;
-      }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .item-emergencia {
+    min-height: 12vh;
+
+    padding: 4px 16px;
+  }
+
+  .pergunta-frequente {
+    width: 85%;
+  }
+
+  .paragrafo-pergunta-frequente {
+    font-size: 1.35rem;
+  }
+
+  .conteudo-checklist {
+    width: 85%;
+
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .etapa-tutorial {
+    grid-template-columns: 1fr 3fr;
+  }
+  .imagem-etapa-tutorial {
+    height: 75%;
+  }
 }
