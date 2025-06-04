@@ -1,0 +1,378 @@
+@media (max-width: 600px) {
+  #header-global {
+    padding: 0 24px;
+  }
+
+  .navbar-links {
+    width: 100%;
+
+    border-radius: 0 0 15px 15px;
+
+    top: -50vh;
+    left: 50%;
+  }
+
+  .navbar-links-open {
+    top: 10dvh;
+  }
+
+  .navbar-links-linha {
+    flex-direction: column;
+
+    gap: 16px;
+  }
+
+  .navbar-links ul {
+    width: 75%;
+  }
+
+  .navbar-links ul a {
+    min-width: 30%;
+  }
+
+  .navbar-links ul a li {
+    width: 100%;
+
+    font-size: 1.15rem;
+
+    font-weight: 700;
+  }
+
+  footer {
+    height: 30vh;
+  }
+
+  .superior-footer {
+    width: 90%;
+    height: 50%;
+
+    top: -27%;
+  }
+
+  .esquerda-superior-footer {
+    width: 60%;
+
+    padding: 16px 0;
+    padding-left: 24px;
+  }
+
+  .esquerda-superior-footer > h3 {
+    font-size: 0.9rem;
+
+    width: 100%;
+
+    font-weight: bolder;
+  }
+
+  .esquerda-superior-footer > p {
+    font-weight: 400;
+
+    font-size: 0.7rem;
+  }
+
+  .direita-superior-footer {
+    width: 45%;
+  }
+  .direita-superior-footer > a {
+    font-size: 1.1rem;
+  }
+
+  .inferior-footer {
+    padding: 8px 32px;
+  }
+  .inferior-footer > h3 {
+    margin: 12px 0;
+
+    font-size: 1.35rem;
+  }
+  .inferior-footer > h3 > img {
+    height: 4vh;
+  }
+  .inferior-footer > p {
+    width: 100%;
+    height: 100%;
+
+    font-size: 0.85rem;
+  }
+
+  .imagem-introdutoria {
+    height: 40vh;
+  }
+  .imagem-introdutoria > img {
+    height: 95%;
+  }
+  .imagem-introdutoria > h2 {
+    font-size: 1.45rem;
+
+    width: 85%;
+  }
+
+  .aplicativo-introdutorio {
+    padding: 0 32px;
+    margin-top: 8px;
+  }
+  .paragrafo-introdutorio {
+    width: 100%;
+
+    font-size: 1.1rem;
+  }
+
+  #tela-celular-contorno {
+    display: none;
+  }
+
+  .explicacao-app {
+    margin-top: 16px;
+    margin-right: 24px;
+
+    font-size: 1.15rem;
+
+    width: 75%;
+  }
+
+  .emergencias-principais > h2 {
+    font-size: 2.25rem;
+
+    width: 85%;
+  }
+
+  .lista-emergencias {
+    gap: 16px;
+  }
+
+  .item-emergencia {
+    width: 75%;
+
+    font-size: 1.1rem;
+  }
+
+  .conteudo-index {
+    padding: 16px 0;
+  }
+
+  .conteudo-perguntas > img {
+    display: none;
+  }
+  .conteudo-perguntas > .conteudo-perguntas-direita {
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pergunta-frequente {
+    width: 75%;
+  }
+
+  .wrapper-formulario {
+    height: fit-content;
+
+    flex-direction: column;
+  }
+
+  .formulario-esquerda {
+    width: 100%;
+  }
+
+  .formulario-esquerda > h3 {
+    width: 100%;
+
+    font-size: 1.4rem;
+  }
+
+  .formulario-esquerda-paragrafo {
+    width: 100%;
+    
+    font-size: .95rem;
+  }
+
+  .formulario-esquerda-lista-contatos{
+    margin-top: 32px;
+  }
+  .formulario-esquerda-lista-contatos > li {
+    font-size: 1rem;
+  }
+
+  .formulario-direita {
+    width: 100%;
+
+    padding: 16px;
+  }
+
+  .formulario-direita-form {
+    grid-template-columns: 1fr;
+  }
+
+  .form-input-default::placeholder {
+    font-size: 1rem;
+  }
+
+  .form-input-submit {
+    height: 6vh;
+  }
+
+  .imagem-introdutoria {
+    height: 30vh;
+  }
+
+  .area-integrantes {
+    flex-direction: column;
+
+    margin-top: 8px;
+  }
+
+  .card-integrante {
+    width: 280px;
+    height: 380px;
+  }
+
+  .midias-sociais img {
+    height: 45px;
+  }
+
+
+  .titulo-pagina {
+    font-size: 2rem;
+  }
+
+  .escolha-emergencia {
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .conteudo-emergencia {
+    margin-bottom: 0;
+
+    height: fit-content;
+  }
+
+  .mensagem-simulacao {
+    width: 85%;
+  }
+
+  .opcoes-emergencia {
+    flex-direction: column;
+
+    gap: 24px;
+  }
+
+  .conteudo-checklist {
+    width: 85%;
+
+    grid-template-columns: 1fr;
+  }
+
+  .card-emergencia {
+    width: 200px;
+    height: 190px;
+
+    text-align: center;
+  }
+
+  .card-emergencia > img {
+    height: 65%;
+  }
+
+  .card-emergencia > h3 {
+    padding: 0 4px;
+
+    font-size: 0.95rem;
+  }
+
+  .titulo-pagina-conteudo {
+    font-size: 2rem;
+
+    align-self: center;
+
+    margin: 0;
+  }
+  .pergunta-frequente {
+    width: 90%;
+  }
+  .titulo-pergunta-frequente-texto {
+    font-size: 1.15rem;
+  }
+  .paragrafo-pergunta-frequente {
+    font-size: 1rem;
+  }
+
+  .questionario {
+    width: 85%;
+
+    margin: 16px 0;
+  }
+
+  .titulo-questao {
+    font-size: 1.75rem;
+
+    text-align: center;
+  }
+
+  .explicacao-questao {
+    width: 95%;
+
+    font-size: 1rem;
+  }
+
+  .opcao-questao {
+    font-size: .95rem;
+
+    font-weight: 500;
+  }
+
+  .respostas-questao {
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper-terminar-questionario {
+    align-self: center;
+  }
+
+  .span-erro-questionario {
+    font-size: 1.35rem;
+  }
+
+  .resetar-questionario {
+    font-size: 1.25rem;
+  }
+  .terminar-questionario {
+    font-size: 1.25rem;
+  }
+
+  .span-erro-questionario {
+    font-size: 1.25rem;
+
+    text-align: center;
+  }
+
+
+
+  .tutorial-wrapper {
+    width: 85%;
+
+    gap: 32px;
+
+    padding: 16px 40px;
+  }
+
+  .etapa-tutorial {
+    gap: 8px;
+
+    grid-template-columns: 1fr;
+
+    grid-template-rows: 25vh;
+  }
+
+  .imagem-etapa-tutorial {
+    height: 75%;
+  }
+
+  .titulo-etapa {
+    font-size: 1.15rem;
+  }
+
+  .descricao-etapa {
+    font-size: 1rem;
+  }
+}

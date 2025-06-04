@@ -108,7 +108,7 @@ header > img {
     30,
     30,
     0.85
-  ) !important; /* Vermelho semi-transparente */
+  ) !important;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 
@@ -380,6 +380,7 @@ footer {
 }
 .emergencias-principais > h2 {
   font-size: 3rem;
+  text-align: center;
 
   color: var(--primary-red);
 }
@@ -838,6 +839,7 @@ footer {
 .midias-sociais img {
   height: 50px;
 }
+
 
 .titulo-pagina {
   font-size: 3rem;
