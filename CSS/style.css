@@ -80,6 +80,8 @@ header > img {
   flex-direction: column;
   align-items: center;
 
+  overflow-x: hidden;
+
   padding: 40px 0;
 }
 

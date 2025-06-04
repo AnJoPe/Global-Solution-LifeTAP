@@ -4,7 +4,7 @@
 
         border-radius: 0 0 15px 15px;
 
-        left: 41%;
+        left: 50%;
     }
 
     .navbar-links-open {
@@ -21,14 +21,14 @@
     }
 
     .superior-footer {
-        width: 85%;
+        width: 90%;
         height: 55%;
 
-        top: -35%;
+        top: -32%;
     }
 
     .esquerda-superior-footer {
-        width: 60%;
+        width: 65%;
 
         padding: 16px 0;
         padding-left: 24px;
@@ -49,7 +49,7 @@
     }
 
     .direita-superior-footer {
-        width: 40%;
+        width: 35%;
     }
     .direita-superior-footer > a {
 
@@ -75,10 +75,10 @@
     }
 
     .imagem-introdutoria {
-        height: 42vh;
+        height: 45vh;
     }
     .imagem-introdutoria > h2  {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 
     .aplicativo-introdutorio {
@@ -169,12 +169,87 @@
 
 
     .conteudo-emergencia {
-        margin-bottom: 45%;
+        margin-bottom: 65%;
     }
 
     .opcoes-emergencia {
         flex-direction: column;
 
         gap: 24px;
+    }
+
+
+    .conteudo-checklist {
+        width: 85%;
+    }
+
+    .card-emergencia {
+        width: 200px;
+        height: 190px;
+    }
+
+    .card-emergencia>img {
+        height: 65%;
+    }
+
+    .card-emergencia>h3 {
+        font-size: 1.1rem;
+    }
+
+
+    .questionario {
+        width: 85%;
+
+        margin: 16px 0;
+    }
+
+    .explicacao-questao {
+        width: 85%;
+
+        font-size: 1.35rem;
+    }
+
+    .opcao-questao  {
+        font-size: 1.15rem;
+
+        font-weight: 500;
+    }
+
+    .wrapper-terminar-questionario {
+        align-self: center;
+    }
+
+    .span-erro-questionario {
+        font-size: 1.35rem;
+    }
+
+
+
+    .tutorial-wrapper {
+        width: 85%;
+
+        gap: 32px;
+
+        padding: 16px 40px;
+    }
+
+    .etapa-tutorial {
+        gap: 8px;
+
+        grid-template-columns: 1fr;
+
+        grid-template-rows: 25vh;
+    }
+
+    .imagem-etapa-tutorial {
+        height: 75%;
+    }
+    
+    .titulo-etapa {
+        font-size: 1.45rem;
+    }
+
+    .descricao-etapa {
+        font-size: 1.15rem;
     }
 }
